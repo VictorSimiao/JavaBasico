@@ -1,4 +1,4 @@
-package javaBasico.CheckedExceptions;
+package javaBasico.checkedExceptions;
 
 @SuppressWarnings("serial")
 public class DepositoNegativoException extends Exception {

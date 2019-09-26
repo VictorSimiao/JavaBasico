@@ -1,9 +1,9 @@
-package javaBasico.CheckedExceptions;
+package javaBasico.checkedExceptions;
 
-import javaBasico.CheckedExceptions.Banco;
-import javaBasico.CheckedExceptions.DepositoNegativoException;
-import javaBasico.CheckedExceptions.SaldoInsuficienteException;
-import javaBasico.CheckedExceptions.ValorNegativoException;
+import javaBasico.checkedExceptions.Banco;
+import javaBasico.checkedExceptions.DepositoNegativoException;
+import javaBasico.checkedExceptions.SaldoInsuficienteException;
+import javaBasico.checkedExceptions.ValorNegativoException;
 
 public class Aplicacao {
 

@@ -1,9 +1,9 @@
-package javaBasico.CheckedExceptions;
+package javaBasico.checkedExceptions;
 
-import javaBasico.CheckedExceptions.ContaBancaria;
-import javaBasico.CheckedExceptions.DepositoNegativoException;
-import javaBasico.CheckedExceptions.SaldoInsuficienteException;
-import javaBasico.CheckedExceptions.ValorNegativoException;
+import javaBasico.checkedExceptions.ContaBancaria;
+import javaBasico.checkedExceptions.DepositoNegativoException;
+import javaBasico.checkedExceptions.SaldoInsuficienteException;
+import javaBasico.checkedExceptions.ValorNegativoException;
 
 public class Banco {
 
