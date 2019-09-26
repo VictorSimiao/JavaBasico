@@ -1,4 +1,8 @@
-package checkedExceptions;
+package javaBasico.CheckedExceptions;
+
+import javaBasico.CheckedExceptions.DepositoNegativoException;
+import javaBasico.CheckedExceptions.SaldoInsuficienteException;
+import javaBasico.CheckedExceptions.ValorNegativoException;
 
 public class ContaBancaria {
 
@@ -16,6 +20,13 @@ public class ContaBancaria {
 			throw new SaldoInsuficienteException(valor, this.saldo);
 		}
 		this.saldo -= valor;
+	}
+
+	public void depositar(double valor) throws DepositoNegativoException {
+		if (valor <= 0) {
+			throw new DepositoNegativoException(valor);
+		}
+		this.saldo += valor;
 	}
 
 	public double getSaldo() {

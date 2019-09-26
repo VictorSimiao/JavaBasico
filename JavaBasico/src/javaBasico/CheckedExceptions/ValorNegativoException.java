@@ -1,4 +1,4 @@
-package checkedExceptions;
+package javaBasico.CheckedExceptions;
 
 @SuppressWarnings("serial")
 public class ValorNegativoException extends Exception {
